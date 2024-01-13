@@ -1,0 +1,194 @@
+body{
+    background-color: white;
+    color: black;
+    max-width: 100vw;
+    height: 1000vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+#bhai{
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: #6F6AF7;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 125px;
+    height: 32px;
+}
+.baap{
+    display: flex;
+}
+.yo{
+    display: flex;
+    align-items: center;
+}
+.yo img{
+    width: 10px;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    font-size: 20px;
+    color: azure;
+    list-style: none;
+}
+
+
+.wrapper1 {
+    height: 40px;
+    width: 220px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    border-radius: 63px;
+    padding-left: 15px;
+    padding-right: 5px;
+    
+    border-style: none;
+}
+.wrapper1::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    color: #9F9F9F;
+    font-size: 15.43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.lastlogo img{
+    width: 55px;
+    height: 40px;
+}
+
+
+.page{
+    display: flex;
+    padding-top: 180px;
+    margin: 0px;
+    justify-content: space-around;
+    padding-left: 150px;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+.popo{
+    height: 300px;
+    border-radius: 20px;
+    -webkit-box-shadow: -7px 7px 12px -4px rgba(0,0,0,0.48); 
+    box-shadow: -7px 7px 12px -4px rgba(0,0,0,0.48);
+}
+.popo img{
+    height: 300px;;
+}
+.xoxo{
+    height: 300px;
+    width: 756px;
+    display: flex;
+    border-radius: 20px;
+    border: 6px;
+    background: #d4c7ec;
+    -webkit-box-shadow: inset 0px 1px 11px -2px rgba(0,0,0,0.5); 
+    box-shadow: inset 0px 1px 11px -2px rgba(0,0,0,0.5);
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 10px 300px 10px;
+    color: #6F7373;
+    padding: 0px 24px;
+    font-size: 19px;
+}
+.trio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    margin-top: 250px;
+    right: 0px;
+    padding-right: 0px;
+    width: 30px;
+    flex-wrap: wrap;
+}
+
+.hey{
+    background-image: url(Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    border-style: solid;
+    border-radius: 20px;
+    height:40px;
+    width:30px;
+
+}
+.bye{
+    background-image: url(Group\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    border-style: solid;
+    border-radius: 20px;
+    height:40px;
+    width:30px;
+}
+.nai{
+    background-image: url(logos_whatsapp-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    border-style: solid;
+    border-radius: 20px;
+    height:40px;
+    width:30px;
+}
+.flags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.flags div{
+    border-radius: 11px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 210px;
+}
+.ci{
+    background-color: #929DFF;
+}
+
+.ci2{
+    background-color: #D288FF;
+}
+.ci3{
+    background-color: #000;
+}
+.ci4{
+    background-color: #D288FF
+}
